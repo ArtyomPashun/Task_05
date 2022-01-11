@@ -1,10 +1,10 @@
 package by.training.pashun.xmlparsing.factory;
 
-import by.training.lihodievski.xmlparsing.exception.ParserException;
-import by.training.lihodievski.xmlparsing.parser.AbstractFlowerParser;
-import by.training.lihodievski.xmlparsing.parser.DOMFlowerParser;
-import by.training.lihodievski.xmlparsing.parser.SAXFlowerParser;
-import by.training.lihodievski.xmlparsing.parser.StAXFlowerParser;
+import by.training.pashun.xmlparsing.exception.ParserException;
+import by.training.pashun.xmlparsing.parser.AbstractFlowerParser;
+import by.training.pashun.xmlparsing.parser.DOMFlowerParser;
+import by.training.pashun.xmlparsing.parser.SAXFlowerParser;
+import by.training.pashun.xmlparsing.parser.StAXFlowerParser;
 
 public class ParserFactory {
 

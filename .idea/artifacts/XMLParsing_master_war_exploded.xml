@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="XMLParsing-master:war exploded">
+    <output-path>$PROJECT_DIR$/target/xmlparsing</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>XMLParsing-master</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="XMLParsing-master" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.11.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-web:2.11.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/xmlparsing/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="XMLParsing-master/web/Web" />
+    </root>
+  </artifact>
+</component>

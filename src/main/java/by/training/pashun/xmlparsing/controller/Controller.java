@@ -1,9 +1,9 @@
 package by.training.pashun.xmlparsing.controller;
 
-import by.training.lihodievski.xmlparsing.exception.ParserException;
-import by.training.lihodievski.xmlparsing.factory.ParserFactory;
-import by.training.lihodievski.xmlparsing.parser.AbstractFlowerParser;
-import by.training.lihodievski.xmlparsing.validation.ValidatorXML;
+import by.training.pashun.xmlparsing.exception.ParserException;
+import by.training.pashun.xmlparsing.factory.ParserFactory;
+import by.training.pashun.xmlparsing.parser.AbstractFlowerParser;
+import by.training.pashun.xmlparsing.validation.ValidatorXML;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import javax.servlet.ServletException;

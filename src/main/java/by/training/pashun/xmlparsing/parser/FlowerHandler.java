@@ -1,8 +1,8 @@
 package by.training.pashun.xmlparsing.parser;
 
 
-import by.training.lihodievski.xmlparsing.bean.*;
-import by.training.lihodievski.xmlparsing.util.DateConvert;
+import by.training.pashun.xmlparsing.bean.*;
+import by.training.pashun.xmlparsing.util.DateConvert;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 

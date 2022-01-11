@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="XMLParsing-master:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>XMLParsing-master</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="xmlparsing.war">
+      <element id="artifact" artifact-name="XMLParsing-master:war exploded" />
+    </root>
+  </artifact>
+</component>

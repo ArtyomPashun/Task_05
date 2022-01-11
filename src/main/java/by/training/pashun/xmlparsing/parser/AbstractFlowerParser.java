@@ -1,6 +1,6 @@
 package by.training.pashun.xmlparsing.parser;
 
-import by.training.lihodievski.xmlparsing.bean.Flower;
+import by.training.pashun.xmlparsing.bean.Flower;
 
 import java.io.InputStream;
 import java.util.HashSet;

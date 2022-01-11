@@ -1,6 +1,6 @@
 package by.training.pashun.xmlparsing.parser;
 
-import by.training.lihodievski.xmlparsing.exception.ParserException;
+import by.training.pashun.xmlparsing.exception.ParserException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.InputSource;
